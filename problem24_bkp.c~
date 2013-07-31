@@ -1,0 +1,7 @@
+# include <stdio.h>
+
+int main()
+{
+	printf("Problem 24\n");
+	return 0;
+}
