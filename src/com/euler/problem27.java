@@ -20,7 +20,7 @@ public class problem27 {
         int saved_a = 0;
         int saved_b = 0;
         int longest_run = 0;
-        System.out.println("Building prime array...");
+        System.out.println("Building Prime array...");
         int [] prime_array = build_prime_array(750*750);
         //System.out.println(Arrays.toString(prime_array));
         System.out.println("Done");
