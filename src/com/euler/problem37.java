@@ -16,15 +16,15 @@ public class problem37 {
         File file = new File("/Users/dgoldfarb/work/euler/primes1.txt");
 
 
-        System.out.println("Truncatable: " + truncatable(3797, prime_array));
+        //System.out.println("Truncatable: " + truncatable(3797, prime_array));
 
         int sum = 0;
-        for (Integer i : prime_array) {
+        /*for (Integer i : prime_array) {
             if (truncatable(i, prime_array)) {
                 System.out.println(i);
                 sum = sum + i;
             }
-        }
+        } */
         System.out.println((sum - (2 + 3 + 5 + 7)));
     }
 
