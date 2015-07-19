@@ -7,12 +7,12 @@ package com.euler;
  * Time: 1:47 PM
  * To change this template use File | Settings | File Templates.
  */
-public class problem31 {
+public class Problem31 {
     public static void main(String[] args) {
-        new problem31(200);
+        new Problem31(200);
     }
 
-    public problem31(int max){
+    public Problem31(int max){
         int count = 0;
         for (int i = 0; i < max + 1; i++) {
             if (i == max) { count++; }

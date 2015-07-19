@@ -10,12 +10,12 @@ import java.util.List;
  * Time: 11:41 AM
  * To change this template use File | Settings | File Templates.
  */
-public class problem30 {
+public class Problem30 {
     public static void main(String[] args) {
-        new problem30(1000000);
+        new Problem30(1000000);
     }
 
-    public problem30(int max){
+    public Problem30(int max){
         int sum = 0;
         for(int i = 2; i < max; i++) {
             if(i == sum_of_powers(5, extract_digits(i))) {

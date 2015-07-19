@@ -11,9 +11,9 @@ package com.euler;
  * There are exactly four non-trivial examples of this type of Fraction, less than one in value, and containing two digits in the numerator and denominator.
  * If the product of these four fractions is given in its lowest common terms, find the value of the denominator.
  */
-public class problem33 {
+public class Problem33 {
     public static void main(String[] args) {
-        new problem33();
+        new Problem33();
 
         Fraction fract;
         Fraction fract1;
@@ -37,7 +37,7 @@ public class problem33 {
         System.out.println(multiplicant.simplify().toString());
     }
 
-    public problem33() {
+    public Problem33() {
     }
 
 }

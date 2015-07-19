@@ -14,14 +14,14 @@ import java.util.*;
  * Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 pandigital.
  * HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
  */
-public class problem32 {
+public class Problem32 {
     public static List<Integer> pandigital = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
     public static void main(String[] args) {
-        new problem32();
+        new Problem32();
     }
 
-    public problem32(){
+    public Problem32(){
         Set<Integer> set_of_pandigital = new HashSet<Integer>();
         for (int i = 1; i < 100000; i++) {
             int j = 1;

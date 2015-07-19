@@ -7,9 +7,9 @@ package com.euler;
  * Time: 3:48 PM
  * To change this template use File | Settings | File Templates.
  */
-public class problem35 {
+public class Problem35 {
     public static void main(String[] args) {
-        new problem35();
+        new Problem35();
         Prime new_prime = new Prime();
         char[] chars;
         System.out.println("Building prime array, this may take a minute...");
@@ -35,7 +35,7 @@ public class problem35 {
         System.out.println(num_circular);
     }
 
-    public problem35() {
+    public Problem35() {
 
     }
 

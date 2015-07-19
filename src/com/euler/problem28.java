@@ -7,13 +7,13 @@ package com.euler;
  * Time: 9:10 AM
  * To change this template use File | Settings | File Templates.
  */
-public class problem28 {
+public class Problem28 {
     public static void main(String[] args) {
-        new problem28();
+        new Problem28();
 
     }
 
-    public problem28() {
+    public Problem28() {
         int[][] mat = build_matrix(1001);
         int result;
         result = sum_diagonals(mat);

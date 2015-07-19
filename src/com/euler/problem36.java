@@ -7,12 +7,12 @@ package com.euler;
  * Time: 6:05 PM
  * To change this template use File | Settings | File Templates.
  */
-public class problem36 {
+public class Problem36 {
     public static void main(String[] args) {
-        new problem36();
+        new Problem36();
     }
 
-    public problem36(){
+    public Problem36(){
         int sum = 0;
         String baseten;
         String basetwo;

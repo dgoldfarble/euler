@@ -9,9 +9,9 @@ import java.io.File;
  * Time: 6:18 PM
  * To change this template use File | Settings | File Templates.
  */
-public class problem37 {
+public class Problem37 {
     public static void main(String[] args) {
-        new problem37();
+        new Problem37();
         Prime new_prime = new Prime();
         File file = new File("/Users/dgoldfarb/work/euler/primes1.txt");
 
@@ -28,7 +28,7 @@ public class problem37 {
         System.out.println((sum - (2 + 3 + 5 + 7)));
     }
 
-    public problem37() {
+    public Problem37() {
 
     }
 

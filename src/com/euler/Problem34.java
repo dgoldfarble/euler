@@ -1,7 +1,5 @@
 package com.euler;
 
-import com.euler.problem30;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,13 +12,13 @@ import java.util.List;
  * Find the sum of all numbers which are equal to the sum of the factorial of their digits.
  * Note: as 1! = 1 and 2! = 2 are not sums they are not included.
  */
-public class problem34 {
+public class Problem34 {
     public static void main(String[] args) {
-        new problem34(1000000);
+        new Problem34(1000000);
 
     }
 
-    public problem34(int max){
+    public Problem34(int max){
         System.out.println(extract_digits(145));
         System.out.println(factorial(5));
         System.out.println(factorial(4));

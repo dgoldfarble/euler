@@ -10,12 +10,12 @@ import java.lang.Math;
  * Time: 9:23 AM
  * To change this template use File | Settings | File Templates.
  */
-public class problem29 {
+public class Problem29 {
     public static void main(String[] args) {
-        new problem29();
+        new Problem29();
     }
 
-    public problem29(){
+    public Problem29(){
         Set<Double> list = new HashSet<Double>();
         List<Integer> list1 = new ArrayList<Integer>();
         int counter = 0;

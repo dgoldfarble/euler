@@ -1,19 +1,17 @@
 package com.euler;
 
-import java.io.File;
 import java.lang.Integer;
-import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 
 
-public class problem27 {
+public class Problem27 {
 
     public static void main(String[] args) {
-        new problem27();
+        new Problem27();
     }
 
-    public problem27() {
+    public Problem27() {
         int a;
         int b;
         int run;
